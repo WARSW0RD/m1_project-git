@@ -1,0 +1,120 @@
+<!-- Intro to HTML & CSS I
+
+  Module Project Overview
+
+    You will build a website to display the bio of your favorite programmer, artist, etc.
+
+    In order to do this, you will create an `index.html` file and scaffold the document
+    with the elements shared by all HTML documents:
+
+    - doctype declaration
+    - html element
+    - head, containing a title and an optional style tag
+    - body, containing the markup that renders to the screen
+
+  Requirements
+
+    Review this article: https://www.w3schools.com/html/html5_semantic_elements.asp
+
+    Create an `index.html` file for your site, or use this same file.
+
+    For your site, you will make use of at least the following semantic elements:
+
+    - header (to contain the main heading of the site, and the nav)
+    - nav (to contain some links to navigate to the different sections of this document)
+    - section (each holding at least a heading and a paragraph)
+    - aside (containing an img and a caption)
+    - footer (containing a contact form)
+    - form (containing at least two inputs with their labels)
+
+    See an example of a finished site: https://bloominstituteoftechnology.github.io/img/anita-borg-bio-website.png
+
+    The example above is quite simple, but you can make your site as fancy as you'd like. -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      li {
+        display: inline-block;
+        margin: 10px;
+        border: ;
+      }
+      img {
+        max-width: 300px;
+      }
+    </style>
+    <h1>THE GOAT OF FIGHTING GAMES</h1>
+    <nav>
+      <ul>
+        <li><a href="#Evos">Evos</a></li>
+        <li><a href="#Different Games">different games</a></li>
+        <li><a href="#youtube">youtube</a></li>
+      </ul>
+    </nav>
+  </head>
+  <body>
+    <section id="Evos" class="Sections">
+      <h2>Evolutions</h2>
+      <p>
+        Evolution or Evo for short is known to be the most difficult tournament
+        of the year for fighting game players. It is a rare feat to win one of
+        them, but Sonic has won six different events. Not only has it been
+        multiple years he has won, but also multiple game titles.
+      </p>
+      <aside>
+        <img
+          src="https://www.esportstalk.com/wp-content/uploads/2021/05/how-many-EVOs-has-Sonicfox-won.jpg"
+          alt=""
+        />
+        2016 Evo champion
+      </aside>
+    </section>
+
+    <section id="Different Games" class="Sections">
+      <h3>Different Ganes</h3>
+      <p>
+        Sonic has dominated the Fighting Game Community (FGC) since 2013 when he
+        competed in MK9. He didn't win an evo that year, but he did take out the
+        champ in that game in several other tournaments. His reign of terror
+        started in the next game Injustice where he took home an evo
+        championship for the first time in 2014. He went on to stay the champ in
+        the next NRS title MKX. He was evo champ in 2015 and 2016. People in the
+        FGC started to say he could only win in NRS titles, so he jumped to a
+        different kind of game. Dragon Ball Fighterz the biggest game of 2018
+        where he was still the unbeatable champ.
+      </p>
+      <!-- <li>Injustice</li>
+    <p>Injustice evo champ 2014</p>
+    <li>Mortal Kombat</li>
+    <p>Mortal Kombat evo champ 2015, 2016, and 2019</p>
+    <li>Other</li>
+    <p>DragonBall champ in 2018</p>
+    <p>Skull Girls champ in 2022 and 2023</p> -->
+    </section>
+
+    <section id="youtube" class="Sections">
+      <h4>His youtube takeover</h4>
+      <p>
+        Once his reign of terror finally ended he started to take over in
+        another form, youtube. his youtube has been rapidly growing ever since
+        he started to post.
+      </p>
+    </section>
+    <footer>
+      <form action="" method="get" class="form-example">
+        <div class="form-example">
+          <label for="name">Enter your name: </label>
+          <input type="text" name="name" id="name" required />
+        </div>
+        <div class="form-example">
+          <label for="email">Enter your email: </label>
+          <input type="email" name="email" id="email" required />
+        </div>
+        <div class="form-example">
+          <input type="submit" value="Subscribe!" />
+        </div>
+      </form>
+    </footer>
+    <script></script>
+  </body>
+</html>
